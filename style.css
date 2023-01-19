@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: serif;
+  font-style: normal;
+}
+.container {
+  color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #00353b;
+}
+.container__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 30px;
+  position: fixed;
+  color: #ffffff;
+  gap: 524px;
+}
+.container__lists {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: #fff;
+  margin-left: 35%;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+li {
+  margin: 0 8px;
+}
+.container__lists2 {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: #fff;
+}
+.container__button {
+  padding: 15px 15px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.container__cards__left {
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+  width: 100%;
+  color: #ffffff;
+  padding: 80px;
+  margin: 0 auto;
+  background-color: #00353b;
+}
+.container__cards__left__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 8px;
+}
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 67px;
+  /* color: #ffffff; */
+  width: 58%;
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  width: 58%;
+  /* color: black;   */
+  margin-top: 30px;
+  margin-bottom: 39px;
+}
+.container__cards__left__button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #22a45a;
+  border: 1px solid #22a45a;
+  border-radius: 8px;
+}
+.container__cards__left__imgs {
+  display: flex;
+  align-items: center;
+}
+.container__cards__left__stars {
+  margin-left: 18px;
+}
+.container__right__img {
+  background-image: url(./img/IMAGE.jpg);
+  /* background-image: url(./img/Vector.svg); */
+  /* background-repeat: no-repeat; */
+  /* object-fit: cover; */
+  top: 90px;
+  border-radius: 24px;
+  width: 600px;
+  height: 640px;
+}
+.container__cards__text2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  padding-bottom: 164px;
+  background-color: #00353b;
+}
+.container__cards__about__us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  background: #fcd8ca;
+  color: #1f2937;
+  border-radius: 24px;
+  width: 1280px;
+}
+.container__cards__about__us__button {
+  padding: 4px 8px;
+  color: #1f2937;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-top: 64px;
+}
+.container__cards__about__us__button2 {
+  color: #ffffff;
+  background-color: #1f2937;
+  padding: 13px 25px;
+  /* position: absolute; */
+  border-radius: 8px;
+  margin-bottom: 64px;
+}
+.container__cards__courses {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 120px;
+  gap: 128px;
+  margin-top: 160px;
+}
+.container__cards__courses__buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container__cards__courses__buttons button {
+  color: #ffffff;
+  background: #1f2937;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  padding: 14px 25px;
+}
+.container__cards__courses__buttons a {
+  color: #111827;
+}
+.container__cards__courses2 {
+  /* width: 100%; */
+  display: flex;
+  margin-top: 128px;
+  margin: 128px 120px;
+  gap: 128px;
+  align-items: center;
+  justify-content: center;
+}
+.container__cards__trending {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.container__cards__trending button {
+  padding: 4px 8px;
+  background: #fcd8ca;
+  border-radius: 4px;
+}
+.container__cards__enroll__courses {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  color: #ffffff;
+}
+.container__cards__enroll__course {
+  background: #00353b;
+  border-radius: 16px;
+  padding: 32px 0 0 24px;
+}
+.container__cards__enroll__course img {
+  margin-left: 195px;
+}
+.container__cards__enroll__courses__item {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.container__cards__enroll__courses__item button {
+  background: #22a45a;
+  border: 1px solid #22a45a;
+  background: #22a45a;
+  padding: 9px 21px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  border-radius: 8px;
+}
+.container__cards__enroll__course .container__cards__beginner {
+  padding: 4px 8px;
+  margin-top: 36px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border-radius: 4px;
+}
