@@ -28,7 +28,8 @@ body {
   align-items: center;
   list-style: none;
   color: #fff;
-  margin-left: 35%;
+  margin: 0 auto;
+  border: 1px solid;
 }
 a {
   color: #fff;
